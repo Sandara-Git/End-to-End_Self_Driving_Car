@@ -22,6 +22,10 @@ Training data contains single images sampled from the video, paired with the cor
 Training with data from only the human driver is not sufficient.
 The network must learn how to recover from mistakes. Otherwise the car will slowly drift off the road. 
 The training data is therefore augmented with additional images that show the car in different shifts from the center of the lane and rotations from the direction of the road.
+
+![image.png](attachment:image.png)
+
+![image.png](attachment:image.png)
 ## Conclusion
 Without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control.
 A small amount of training data from less than a hundred hours of drivingwas sufficient to train the car to operate in diverse conditions, on highways, local and residential roads in sunny, cloudy, and rainy conditions.
